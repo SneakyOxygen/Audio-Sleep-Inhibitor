@@ -18,6 +18,6 @@ A script from [**u/ipsirc**](https://www.reddit.com/user/ipsirc/?utm_source=shar
 # Possible updates in the future (if I get bored enough to update it)
 - Allow the power button to instantly sleep the PC while an audio is playing.
 
-### HUUUUUUGE THANKS to u/ipsirc for this script!
-
 This is purely for personal use but anyone can use and improve it. 
+
+### HUUUUUUGE THANKS to u/ipsirc for this script!
