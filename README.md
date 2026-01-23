@@ -4,11 +4,11 @@ A script from [**u/ipsirc**](https://www.reddit.com/user/ipsirc/?utm_source=shar
 
 # How to Install and Use
 1. Install the script file.
-2. Open Dolphin or your preferred file manager and open usr/local/bin as Administrator.
+2. Open Dolphin or your preferred file manager and open **usr/local/bin** as Administrator.
 3. Copy paste the script in this folder.
-4. Open terminal and type "sudo chmod +x /usr/local/bin/audio-sleep-inhibitor.sh"
+4. Open terminal and type `sudo chmod +x /usr/local/bin/audio-sleep-inhibitor.sh`
 5. Open Autostart from Application Manager or System Settings > scroll to the lowest part > Autostart.
-6. Click "+ Add New" and "Login Script".
+6. Click **+ Add New** and **Login Script**.
 7. Locate the script and double click it.
 8. Logout or Restart your PC (recommended).
 
