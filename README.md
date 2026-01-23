@@ -20,4 +20,4 @@ A script from [**u/ipsirc**](https://www.reddit.com/user/ipsirc/?utm_source=shar
 
 ### HUUUUUUGE THANKS to u/ipsirc for this script!
 
-- This is purely for personal use but anyone can use and improve it. 
+This is purely for personal use but anyone can use and improve it. 
