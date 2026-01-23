@@ -18,6 +18,6 @@ A script from [**u/ipsirc**](https://www.reddit.com/user/ipsirc/?utm_source=shar
 # Possible updates in the future (if I get bored enough)
 - Allow the power button to instantly sleep the PC while an audio is playing.
 
-This is purely for personal use but anyone can use and improve it. 
+This is purely for personal use but anyone can use and improve it. Sharing the file again and again thru LocalSend to a laptop with a newly installed Linux distro is a PITA to me as I have to use 2 devices just for a simple task.
 
 ### HUUUUUUGE THANKS to u/ipsirc for this script!
