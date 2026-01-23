@@ -15,7 +15,7 @@ A script from [**u/ipsirc**](https://www.reddit.com/user/ipsirc/?utm_source=shar
 ## Tested Linux Distros and Versions
 - Fedora KDE 42 and 43
 
-# Possible updates in the future (if I get bored enough to update it)
+# Possible updates in the future (if I get bored enough)
 - Allow the power button to instantly sleep the PC while an audio is playing.
 
 This is purely for personal use but anyone can use and improve it. 
