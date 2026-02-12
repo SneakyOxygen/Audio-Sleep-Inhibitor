@@ -1,19 +1,22 @@
 #!/bin/bash
 # Save as ~/bin/audio-sleep-inhibitor.sh
 
-while true; do
-    # Check if any application is playing audio
-    if pactl list sinks | grep -q "State: RUNNING"; then
-        # Audio is playing, inhibit sleep
-        systemd-inhibit --what=sleep --why="Audio playback active" --mode=block sleep infinity &
-        INHIBIT_PID=$!
-        # Wait until audio stops
-        while pactl list sinks | grep -q "State: RUNNING"; do
-            sleep 5
-        done
-        # Audio stopped, kill the inhibitor
-        kill $INHIBIT_PID 2>/dev/null
-        wait $INHIBIT_PID 2>/dev/null
+INHIBIT_PID=""
+
+pactl subscribe | while read -r line; do
+    if pactl list sink-inputs | grep -q "Sink Input"; then
+        # Audio is playing
+        if [ -z "$INHIBIT_PID" ]; then
+            systemd-inhibit --what=sleep --why="Audio playback active" --mode=block sleep infinity &
+            INHIBIT_PID=$!
+        fi
+    else
+        # No audio playing
+        if [ -n "$INHIBIT_PID" ]; then
+            kill "$INHIBIT_PID" 2>/dev/null
+            wait "$INHIBIT_PID" 2>/dev/null
+            INHIBIT_PID=""
+        fi
     fi
-    sleep 5
 done
+
