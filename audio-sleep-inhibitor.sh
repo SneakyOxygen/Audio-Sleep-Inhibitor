@@ -15,6 +15,7 @@ while true; do
         kill $INHIBIT_PID 2>/dev/null
         wait $INHIBIT_PID 2>/dev/null
     fi
-    sleep 5
+    # If no audio is playing, wait X second before checking again.
+    sleep 1 
 done
 
