@@ -12,6 +12,12 @@ A script from [**u/ipsirc**](https://www.reddit.com/user/ipsirc/?utm_source=shar
 7. Locate the script and double click it.
 8. Logout or Restart your PC (recommended).
 
+# How to Update
+1. Install the latest script file or edit audio-sleep-inhibitor.sh and copy paste the latest script.
+2. Open Autostart and stop the script, then start it again.
+
+See if it's working, you can comment if it's not but in my defense, it worked for me XD
+
 ## Tested Linux Distros and Versions
 - Fedora KDE 42 and 43
 
