@@ -1,4 +1,4 @@
-# Audio-Sleep-Inhibitor
+# Audio-Sleep-Inhibitor [ABANDONED]
 
 A script from [**u/ipsirc**](https://www.reddit.com/user/ipsirc/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) that automatically blocks sleep when an audio is playing at the background. It works by scanning the device if there's an audio from a minimized music player, website or video player and blocks the sleep function till the audio stops. It works on any PC that runs on Linux but as of now, it is only tested on 1 Linux distro as that is the distro that my laptops currently use (may a thinkpad magically appear in my room lol). It is similar to how Windows won't let the PC sleep when an audio is playing even if those apps or software are minimized.
 
@@ -27,3 +27,6 @@ See if it's working, you can submit an issue if it's not but in my defense, it w
 This is purely for personal use but anyone can use and improve it. Sharing the file again and again thru LocalSend to a laptop with a newly installed Linux distro is a PITA to me as I have to use 2 devices just for a simple task.
 
 ### HUUUUUUGE THANKS to u/ipsirc for this script!
+
+# Reason for Abandoning the script
+This was abandoned as it is not needed anymore, audios from apps such as Spotify and any web browser now automatically blocks sleep when playing an audio while it is minimized. I think this update came in Fedora 43 as 42 didn't had this. I only noticed it actually when my own laptop didn't autostart the script yet it is still not sleeping while an audio from a minimized web browser is playing.
